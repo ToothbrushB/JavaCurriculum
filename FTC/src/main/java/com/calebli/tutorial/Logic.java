@@ -118,5 +118,35 @@ public class Logic {
             wakeUp = false;
         }
 
+        boolean someCondition = true;
+        boolean anotherCondition = false;
+        if (someCondition) {
+            // do something
+        } else if (anotherCondition) {
+            // otherwise, do something else if anotherCondition
+        } else {
+            // otherwise, do something else
+        }
+
+        int value = 2;
+        switch (value) {
+            case 1:
+                // do something
+            case 2:
+                // fall through from case 1 to 2
+                // do something else
+                break;
+            case 3:
+                // do something else
+                break;
+            default:
+                // default case
+        }
+
+        boolean doorOpen = true;
+        String door = "The door is " + (doorOpen ? "open" : "closed");
+
+
+
     }
 }

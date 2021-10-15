@@ -19,8 +19,8 @@ public class Variables {
         f = e++; // f = 5, e = 6; add one to e and use the old value of e
 
         int numCorn = 10;
-        int percentCornLeft = 5.5
-        double originalNumCorn = (100 / percentCornLeft * numCorn;
+        double percentCornLeft = 5.5;
+        double originalNumCorn = (100 / percentCornLeft) * numCorn;
 
         short myShort;
         myShort = 10;
@@ -31,7 +31,7 @@ public class Variables {
         int unitNum = 1;
         byte questionPoints;
         questionPoints = 3;
-        float quizPoints;
+        float quizPoints = 0;
         quizPoints += questionPoints;
         quizPoints += 20;
         boolean quizWorthManyPoints = quizPoints >= 20;
